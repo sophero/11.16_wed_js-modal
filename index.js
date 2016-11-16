@@ -13,5 +13,5 @@ closeButton.addEventListener("click", closeModal);
 
 
 
-window.setTimeout(popup, 1000);
+window.setTimeout(popup, 500);
 // Change this to three seconds!!!!!!!
