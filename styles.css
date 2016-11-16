@@ -75,13 +75,13 @@ h1 {
 .login-button {
 	background-color: #abc5ed;
 	text-align: center;
-	color: #2a4570;
+	color: #e2edff;
 	border: none;
 }
 
-/*.sign-up-button {
+.sign-up-button {
 	font-size: 16px;
-	background-color: #ff2d2d;
+	background-color: #14cc79;
 	color: #540d0d;
 	border: 2px inset #540d0d;
 	border-radius: 5px;
@@ -91,7 +91,7 @@ h1 {
 
 .sign-up-button:hover {
 	/*background-color: #ef1010;*/
-/*	color: #bc0d0d;
+	color: #bc0d0d;
 	border-color: red;
 	cursor: pointer;
-}*/
+}
