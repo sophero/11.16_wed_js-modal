@@ -87,7 +87,7 @@ h1 {
 	background-color: #3e82ef;
 }
 
-.sign-up-button {
+.signup-button {
 	font-size: 16px;
 	background-color: #14cc79;
 	color: #540d0d;
@@ -98,7 +98,7 @@ h1 {
 	margin-top: 15px;
 }
 
-.sign-up-button:hover {
+.signup-button:hover {
 	/*background-color: #ef1010;*/
 	color: black;
 	border: 1px solid #14cc79;
