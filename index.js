@@ -10,7 +10,10 @@ function closeModal() {
 }
 
 closeButton.addEventListener("click", closeModal);
-
+// signUpButton = document.querySelector(".signup-button");
+// signUpButton.addEventListener("mouseenter", function () {
+// 	signUpButton.innerText = "Sign Up!";
+// });
 
 
 window.setTimeout(openModal, 3000);
