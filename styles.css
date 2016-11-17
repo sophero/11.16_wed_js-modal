@@ -19,10 +19,10 @@ body {
 	box-sizing: border-box;
 	position: absolute;
 	width: 70%;
+	margin: 0 auto;
 	/*height: 80%;*/
 	top: 150px;
-	right: 10%;
-	left: 10%;
+	left: 15%;
 	/*bottom: 10%;*/
 	background-color: rgba(0,0,0,0.2);
 	border-radius: 15px;
@@ -64,7 +64,7 @@ nav li {
 }
 
 .modal-content {
-	/*background-color: rgba(.8,.8,.8,1);*/
+	background-color: rgba(0,0,0,0.2);
 	/*z-index: 1;*/
 	text-align: center;
 	margin: 20% auto;
