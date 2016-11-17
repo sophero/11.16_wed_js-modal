@@ -1,7 +1,7 @@
 var modal = document.getElementById("myModal");
 var closeButton = document.getElementsByClassName("close")[0];
 
-function popup() {
+function openModal() {
 	modal.className = "modal modal-on";
 }
 
@@ -13,5 +13,5 @@ closeButton.addEventListener("click", closeModal);
 
 
 
-window.setTimeout(popup, 500);
+window.setTimeout(openModal, 3000);
 // Change this to three seconds!!!!!!!

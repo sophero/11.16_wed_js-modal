@@ -8,7 +8,7 @@ body {
 	color: #c9ddff;
 }
 
-.container {
+.background {
 	min-height: 100vh;
 	min-width: 100vw;
 	/*width: 100vw;*/
@@ -81,6 +81,7 @@ h1 {
 	text-align: center;
 	color: #e2edff;
 	border: none;
+	cursor: pointer;
 }
 
 .login-button:hover {
@@ -100,7 +101,9 @@ h1 {
 
 .signup-button:hover {
 	/*background-color: #ef1010;*/
-	color: black;
-	border: 1px solid #14cc79;
+	/*color: #c9ddff;*/
+	color: #e2edff;
+	border: 1px solid #e2edff;
 	cursor: pointer;
 }
+/**/
