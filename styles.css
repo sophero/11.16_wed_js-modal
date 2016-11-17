@@ -19,6 +19,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.container {
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid black;
+}
+
 h1 {
 	font-size: 60px;
 	font-family: "Courier New";	
