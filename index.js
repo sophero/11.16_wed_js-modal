@@ -10,6 +10,12 @@ function closeModal() {
 }
 
 closeButton.addEventListener("click", closeModal);
+document.addEventListener("keydown", function(event) {
+	if (event.keyCode == 27) {
+		closeModal();
+	}
+});
+
 // signUpButton = document.querySelector(".signup-button");
 // signUpButton.addEventListener("mouseenter", function () {
 // 	signUpButton.innerText = "Sign Up!";
