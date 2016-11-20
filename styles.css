@@ -11,7 +11,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-.nav-bar {
+.container {
 	box-sizing: border-box;
 	position: absolute;
 	width: 70%;
@@ -22,18 +22,18 @@ body {
 	background-color: rgba(0,0,0,0.2);
 	border-radius: 15px;
 }	
-
+/*
 .mainpage-content {
 	box-sizing: border-box;
 	position: absolute;
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 	padding: 1px;
 	top: 300px;
-	left: 15%;
+	left: 20%;
 	background-color: rgba(0,0,0,0.4);
 	border-radius: 10px;
-}
+}*/
 
 .mainpage-content p {
 	text-align: center;
