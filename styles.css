@@ -3,7 +3,6 @@ body {
 	font-size: 14px;
 	width: 100vw;
 	height: 100vh;
-	/*color: #abc5ed;*/
 	color: #c9ddff;
 	background-image: url("images/cumulus_clouds_seen_from_above.jpg");
 	background-position: fixed;
@@ -17,31 +16,29 @@ body {
 	width: 70%;
 	margin: 0 auto;
 	padding: 1px;
-	top: 200px;
+	top: 190px;
 	left: 15%;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.4);
 	border-radius: 15px;
 }	
-/*
+
 .mainpage-content {
+	text-align: center;
 	box-sizing: border-box;
-	position: absolute;
-	width: 60%;
+	width: 75%;
 	margin: 0 auto;
 	padding: 1px;
-	top: 300px;
-	left: 20%;
-	background-color: rgba(0,0,0,0.4);
-	border-radius: 10px;
-}*/
+	border-top: 1px solid #abc5ed;
+}
 
 .mainpage-content p {
-	text-align: center;
-	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 140%;
 }
 
 h1 {
-	color: #abc5ed;
+	color: #c9ddff;
 	font-size: 70px;
 	font-family: "Courier New";
 	text-align: center;
@@ -55,17 +52,18 @@ nav {
 nav ul {
 	list-style-type: none;
 	margin: 10px auto;
+	padding: 0;
+	color: #c9ddff;
 }
 
 nav li {
 	display: inline-block;
 	margin: 10px 5%;
 	font-weight: bold;
+	color: #abc5ed;
 }
 
 nav li:hover {
-	/*color: #3e82ef;*/
-	color: #abc5ed;
 	cursor: pointer;
 	text-decoration: line-through;
 }
@@ -86,7 +84,7 @@ nav li:hover {
 }
 
 .modal-content {
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.5);
 	text-align: center;
 	margin: 20% auto;
 	padding: 20px;
